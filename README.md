@@ -10,7 +10,7 @@ First use the install script to make sure xDebug is installed on your webserver.
 ```bash
 sudo ./xdebug-install.sh /path/to/your/php.ini
 ```
-You need to change the php.ini from your server (e.g. /etc/php/7.0/apache2/php.ini) and from your interpeter in PhpStorm (e.g. /etc/php/7.0/cgi/php.ini)
+You need to change the php.ini from your server (e.g. `/etc/php/7.0/apache2/php.ini`) and from your interpeter in PhpStorm (e.g. `/etc/php/7.0/cgi/php.ini`)
 
 Check everything afterwards!
 
@@ -23,8 +23,7 @@ Take the following steps:
    * Windows & Linux: Settings -> Languages & Frameworks -> PHP
    * MAC: Preferences -> Languages & Frameworks -> PHP.
 2. 	Click the ... behind your interperter.
-3. 	Click the reload icon, behind the PHP exec path. The debug version should now appear.
-4. 	Now eat a pie
+3. 	Click the reload icon, behind the PHP exec path. The debug version should now appear underneath the path.
 
 ###JIT Debugging
 
@@ -36,7 +35,7 @@ Take the following steps:
 2. Click the ... behind your interperter.
 3. Click the ... behind the configuration options.
 4. Add the following key:value -> xdebug.remote_mode:jit
-5. Save everything, Configuration options should now contain "-dxdebug.remote_mode=jit".
+5. Save everything, Configuration options should now contain `-dxdebug.remote_mode=jit`.
 
 ##Verify XDebug
 
