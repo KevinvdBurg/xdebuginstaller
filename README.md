@@ -19,9 +19,9 @@ Do this on the php.ini (e.g. /etc/php/7.0/apache2/php.ini) from your webserver a
 
 Follow the following steps:
 
-1. 	Go to 
-    For Windows & Linux: Settings -> Languages & Frameworks -> PHP
-    For MAC: Preferences -> Languages & Frameworks -> PHP.
+1. 	Go to:
+   * For Windows & Linux: Settings -> Languages & Frameworks -> PHP
+   * For MAC: Preferences -> Languages & Frameworks -> PHP.
 2. 	Click the ... behind your interperter.
 3. 	Click the reload icon, behind the PHP exec path. The debug version should now appear.
 4. 	Now eat a pie
@@ -30,9 +30,9 @@ Follow the following steps:
 
 Follow the following steps:
 
-1. 	Go to 
-    For Windows & Linux: Settings -> Languages & Frameworks -> PHP
-    For MAC: Preferences -> Languages & Frameworks -> PHP.
+1. 	Go to:
+   * For Windows & Linux: Settings -> Languages & Frameworks -> PHP
+   * For MAC: Preferences -> Languages & Frameworks -> PHP..
 2. Click the ... behind your interperter.
 3. Click the ... behind the configuration options.
 4. Add the following key:value -> xdebug.remote_mode:jit
