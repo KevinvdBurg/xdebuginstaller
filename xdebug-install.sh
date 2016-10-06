@@ -1,24 +1,21 @@
 #!/bin/bash
-# My first script
 
 # CONTANTS
 RIGHT_NOW=$(date +"%x %r %Z")
 TIME_STAMP="Executed on $RIGHT_NOW by $USER"
-
-
 # Functions
 
-function installdebug
+function installDebug
 {  
 	 pecl install xdebug
 }
 
-function restartnginx
+function restartNginx
 {
 	sudo service nginx restart
 }
 
-function restartapache
+function restartApache
 {
 	sudo service apache2 restart
 }
@@ -49,7 +46,7 @@ if [ "$1" != "" ]; then
     	read -p "Have you already installed the xdebug module? " yn
 	    case $yn in
 	        [Yy]* ) break;;
-	        [Nn]* ) installdebug; break;;
+	        [Nn]* ) installDebug; break;;
 	        * ) echo "Please answer yes or no.";;
 	    esac
 	done
@@ -73,8 +70,8 @@ if [ "$1" != "" ]; then
 				echo "Wich webserver are you using? (apache or nginx) "
 				read SEL
 				case $SEL in
-					"apache") restartapache; break;;
-					"nginx") restartnginx; break;;
+					"apache") restartApache; break;;
+					"nginx") restartNginx; break;;
 					*) ERR_MSG="Please enter a valid option!"
 				esac
 
@@ -89,7 +86,7 @@ if [ "$1" != "" ]; then
 	fi
    
 else
-    echo "ERROR: We need a php.ini path to work! :D thnx"
+    echo "ERROR: We need a php.ini path to work! for more info see: https://github.com/ramondr/xdebuginstaller/"
 fi
 
 
