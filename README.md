@@ -17,22 +17,22 @@ Check everything afterwards!
 ##Configuring
 ###PhpStorm with XDebug
 
-Follow the following steps:
+Take the following steps:
 
 1. 	Go to:
-   * For Windows & Linux: Settings -> Languages & Frameworks -> PHP
-   * For MAC: Preferences -> Languages & Frameworks -> PHP.
+   * Windows & Linux: Settings -> Languages & Frameworks -> PHP
+   * MAC: Preferences -> Languages & Frameworks -> PHP.
 2. 	Click the ... behind your interperter.
 3. 	Click the reload icon, behind the PHP exec path. The debug version should now appear.
 4. 	Now eat a pie
 
 ###JIT Debugging
 
-Follow the following steps:
+Take the following steps:
 
 1. 	Go to:
-   * For Windows & Linux: Settings -> Languages & Frameworks -> PHP
-   * For MAC: Preferences -> Languages & Frameworks -> PHP..
+   * Windows & Linux: Settings -> Languages & Frameworks -> PHP
+   * MAC: Preferences -> Languages & Frameworks -> PHP..
 2. Click the ... behind your interperter.
 3. Click the ... behind the configuration options.
 4. Add the following key:value -> xdebug.remote_mode:jit
@@ -40,9 +40,9 @@ Follow the following steps:
 
 ##Verify XDebug
 
-Follow the following steps:
+Take the following steps:
 
-1. Go to Run->Webserver Debug Validation
+1. Go to Run -> Webserver Debug Validation
 2. Fill in the path to the websites root
 3. Fill in the url to the websites root
 4. Click validate, everything should turn blue. Otherwise check you settings
