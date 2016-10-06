@@ -6,8 +6,13 @@ Make sure zend debugger and zend optimizer are disabled!
 
 ##Install XDebug
 
-First use the install script to make sure xDebug is installed on your webserver. 
-Do this on the php.ini (e.g. /etc/php/7.0/apache2/php.ini) from your webserver and the php.ini (e.g. /etc/php/7.0/cgi/php.ini) from your interpreter inside phpstorm. Make sure everyting is in the right place! 
+First use the install script to make sure xDebug is installed on your webserver. Usage: 
+```bash
+sudo ./xdebug-install.sh /path/to/your/php.ini
+```
+You need to change the php.ini from your server (e.g. /etc/php/7.0/apache2/php.ini) and from your interpeter in PhpStorm (e.g. /etc/php/7.0/cgi/php.ini)
+
+Check everything afterwards!
 
 ##Configuring
 ###PhpStorm with XDebug
@@ -48,4 +53,7 @@ Go to: https://www.jetbrains.com/help/phpstorm/2016.2/configuring-xdebug.html#d4
 
 ##Problems
 This guide is based on: https://www.jetbrains.com/help/phpstorm/2016.2/configuring-xdebug.html
-Maybe you can find you're answere there, otherwis check https://google.com/searuch?q=<YOUQUESTION>
+Maybe you can find you're answere there, otherwis check https://google.com/searuch?q=yourequestionhere
+
+#Responsibility
+We are not responsible for any harm to your systems. If you find a bug of a incorrection please notify us.
