@@ -4,7 +4,7 @@
 Before you start:
 Make sure zend debugger and zend optimizer are disabled!
 
-##INSTALL XDEBUG ON YOUR SYSTEM
+##Install XDebug
 
 First use the install script to make sure xDebug is installed on your webserver. 
 Do this on the php.ini (e.g. /etc/php/7.0/apache2/php.ini) from your webserver and the php.ini (e.g. /etc/php/7.0/cgi/php.ini) from your interpreter inside phpstorm. Make sure everyting is in the right place! 
