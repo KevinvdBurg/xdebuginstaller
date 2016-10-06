@@ -52,7 +52,7 @@ Go to: https://www.jetbrains.com/help/phpstorm/2016.2/configuring-xdebug.html#d4
 
 ##Problems
 This guide is based on: https://www.jetbrains.com/help/phpstorm/2016.2/configuring-xdebug.html
-Maybe you can find you're answere there, otherwis check https://google.com/searuch?q=yourequestionhere
+Maybe you can find you're answer there, otherwis check https://google.com/searuch?q=yourequestionhere
 
 #Responsibility
 We are not responsible for any harm to your systems. If you find a bug of a incorrection please notify us.
