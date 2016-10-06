@@ -1,18 +1,13 @@
 
 #README
--------------------------------------------------
 
 Before you start:
 Make sure zend debugger and zend optimizer are disabled!
-
--------------------------------------------------
 
 ##INSTALL XDEBUG ON YOUR SYSTEM
 
 First use the install script to make sure xDebug is installed on your webserver. 
 Do this on the php.ini (e.g. /etc/php/7.0/apache2/php.ini) from your webserver and the php.ini (e.g. /etc/php/7.0/cgi/php.ini) from your interpreter inside phpstorm. Make sure everyting is in the right place! 
-
--------------------------------------------------
 
 ##Configuring
 ###PhpStorm with XDebug
@@ -38,8 +33,6 @@ Follow the following steps:
 4. Add the following key:value -> xdebug.remote_mode:jit
 5. Save everything, Configuration options should now contain "-dxdebug.remote_mode=jit".
 
--------------------------------------------------
-
 ##Verify XDebug
 
 Follow the following steps:
@@ -49,13 +42,9 @@ Follow the following steps:
 3. Fill in the url to the websites root
 4. Click validate, everything should turn blue. Otherwise check you settings
 
--------------------------------------------------
-
 ##Usage
 
 Go to: https://www.jetbrains.com/help/phpstorm/2016.2/configuring-xdebug.html#d43035e398
-
--------------------------------------------------
 
 ##Problems
 This guide is based on: https://www.jetbrains.com/help/phpstorm/2016.2/configuring-xdebug.html
